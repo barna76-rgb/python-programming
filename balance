@@ -1,0 +1,7 @@
+number = int(input("Enter the number: "))
+balance = number % 2
+print(balance)
+if balance == 0:
+    print("Even number")
+else:
+    print("Odd number")
