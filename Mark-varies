@@ -1,0 +1,13 @@
+mark = int(input("Enter the mark: "))
+if mark < 40:
+    print("Fail")
+elif (50 <= mark < 60):
+    print("Second Class")
+elif (60 <= mark < 75):
+    print("First Class")
+elif (75 <= mark <= 99):
+    print("Distinction")
+elif (mark == 100):
+    print("Centum")
+else:
+    print("Invalid number")
