@@ -1,0 +1,6 @@
+nationality = input("Enter the nationality: ")
+year = int(input("Enter the year of birth: "))
+if (year < 2008 and nationality == "indian"):
+    print("Eligible to vote")
+else:
+    print("Ineligible to vote")
