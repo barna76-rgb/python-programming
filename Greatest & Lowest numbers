@@ -1,0 +1,10 @@
+numbers = input("Enter the numbers separated by spaces:")
+greatest = numbers[0]
+lowest = numbers[0]
+for val in numbers:
+   if val > greatest:
+    greatest = val
+if val < lowest:
+        lowest = val
+print("The greatest number is:", greatest)
+print("The lowest number is:", lowest)
