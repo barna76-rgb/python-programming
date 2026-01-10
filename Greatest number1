@@ -1,0 +1,6 @@
+numbers = (1196,236,540,600,755,2030)
+greatest = numbers[0]
+for val in numbers:
+   if val > greatest:
+    greatest = val
+    print("The greatest number is", greatest)
