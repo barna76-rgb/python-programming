@@ -1,0 +1,5 @@
+Attendance = int(input("Enter the attendance percentage: "))
+if Attendance >= 75:
+    print("Eligible to write Exam")
+else:
+    print("Not eligible to write Exam")
