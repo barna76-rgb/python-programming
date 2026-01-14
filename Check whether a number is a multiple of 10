@@ -1,0 +1,6 @@
+number = int(input("Enter the number: "))
+
+if number % 10 == 0:
+    print("The number is a mulitiple of 10")
+else:
+    print("The number is NOT a multiple of 10")
