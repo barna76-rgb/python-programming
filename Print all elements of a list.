@@ -1,0 +1,4 @@
+transport = ("Train", "Bus", "Flight")
+
+for v in transport:
+    print(v)
